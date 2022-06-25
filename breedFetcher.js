@@ -18,5 +18,4 @@ request(`https://api.thecatapi.com/v1/breeds/search?q=${searchTerm}`, (error, re
 
   console.log(data.description);
 
-  
 });
